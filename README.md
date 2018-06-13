@@ -21,23 +21,23 @@ Demonstrates grabbing and displaying data from JSON endpoints using AJAX and van
 
 ## Requires:
 * A web browser.
-* REST API Web Service data locations: 
-** https://learnwebcode.github.io/json-example/animals-1.json
+* REST API Web Service data locations:
+    * https://learnwebcode.github.io/json-example/animals-1.json
     
-Demonstrates:
+## Demonstrates:
 * Vanilla JavaScript
 * AJAX
 * XMLHttpRequest
 * Parsing JSON
 * REST API
 
-Based on this tutorial:
+## Based on this tutorial:
 - Title: JSON and AJAX Tutorial: With Real Examples
 - URL: https://www.youtube.com/watch?v=rJesac0_Ftw
 - Channel: LearnWebCode
 
-Resources:
+## Resources:
 - Where to access json endpoint urls:
--- Fill Text: http://www.filltext.com/
+    * Fill Text: http://www.filltext.com/
 - JavaScript Templating: handlebars.js
 - Error Handling for AJAX?
