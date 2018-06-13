@@ -1,14 +1,15 @@
-| INFO PROPERTY | VALUE                                    |
-|---------------|------------------------------------------|
-| Program Name  | YouTube Information Grabber (Vanilla JS) |
-| File Name     | js-get-youtubeinfo.js                    |
-| Date Created  | 06/13/18                                 |
-| Date Modified | --                                       |
-| Version       | 1.0                                      |
-| Programmer    | Eric Hepperle                            |
+| INFO PROPERTY    | VALUE                                       |
+|------------------|---------------------------------------------|
+| Program Name     | Demo: Ajax Information Gallery (Vanilla JS) |
+| Public File Name | index.htm                                   |
+| Local File Name  | ehCode_2018.06.13_demo_AjaxJson             |
+| Date Created     | 06/13/18                                    |
+| Date Modified    | --                                          |
+| Version          | 1.0                                         |
+| Programmer       | Eric Hepperle                               |
 
 ## Purpose:
-Grabs (scrapes) and prints to console title, url, and channel name  using vanilla JavaScript ES6.
+Demonstrates grabbing and displaying data from JSON endpoints using AJAX and vanilla JavaScript ES6.
     
 ## Usage:
 1. Load the HTML page in a browser.
