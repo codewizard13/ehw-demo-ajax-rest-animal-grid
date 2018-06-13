@@ -1,0 +1,204 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.hide-me {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.75);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.4em;
+  font-weight: normal;
+  display: inline-block;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 50px 10%;
+}
+
+button {
+  background-color: #046380;
+  color: #FFF;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 0 #034154;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+  position: relative;
+  top: -10px;
+}
+
+button:hover {
+  background-color: #034F66;
+}
+
+button:active {
+  background-color: #034154;
+  box-shadow: none;
+  position: relative;
+  top: -8px;
+  left: 2px;
+}
+
+p {
+  padding: 4px 0 2px 8px;
+  line-height: 1.7;
+  border-bottom: 1px dotted #DDD;
+  list-style: none;
+  margin: 0;
+}
+
+/* ERIC HEPPERLE's modifications as of 06/13/18 */
+
+h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+
+section.animal_profile {
+    border: solid black 2px;
+    padding: .2em 1em;
+    /* float: left; */
+    display: block;
+    overflow: hidden;
+    width: 20vw;
+    background: wheat;
+    border-radius: .6em;
+    min-width: 250px;
+    margin: 0 1em .4em;
+    display: inline-grid;
+}
+
+.animal_profile > h3 {
+    text-transform: uppercase;
+    font-family: Jua;
+    font-size: 2.2em;
+    padding: 0;
+    margin: .2em 0;
+    color: cadetblue;
+}
+
+#animal-info::after {
+    clear: both;
+    padding-bottom: 4em;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border: solid 1px red;
+    /* padding: 2px; */
+    max-width: 300px;
+    /* display: table; */
+    background: aliceblue;
+    color: navyblue;
+    margin-bottom: 1em;
+}
+
+tr h4 {
+    font-weight: bold;
+}
+
+/* column 2 */
+
+tr td:nth-of-type(2) {
+    text-align: center;
+}
+
+
+/* SPECIES */
+
+tr:first-of-type {
+    background: orange;
+}
+
+tr:first-of-type td:nth-of-type(2) {
+    color: white;
+    font-size: 1.2em;
+
+}
+
+/* FOODS */
+
+tr:nth-of-type(2) {
+    background: blue;
+    color: white;
+    font-size: .8em;
+}
+
+tr:nth-of-type(2) td {
+    padding-left: .8em;
+}
+
+tr:nth-of-type(3) {
+    background: lightgreen;
+}
+
+tr:nth-of-type(3) .table-cell {
+    background: beige;
+}
+
+tr h5 {
+    text-align: center;
+}
+
+td ul {
+    list-style-position: outside;
+}
+
+td ul > li {
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

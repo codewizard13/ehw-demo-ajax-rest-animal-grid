@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--
+File Name: ehCode_2018.06.13_demo_AjaxJson
+Date Created: 06/13/18
+Programmer: Eric Hepperle
+
+Purpose: Demonstrates grabbing and displaying data from JSON endpoints
+    using AJAX and vanilla JavaScript ES6.
+    
+Usage: 
+    1. Load the HTML page in a browser.
+    2. Click the button to load new objects.
+    3. Each object should display in a styled, floated block module.
+
+Sample results: N/A
+
+Requires:
+	* A web browser.
+    * REST API Web Service data locations: 
+    -- https://learnwebcode.github.io/json-example/animals-1.json
+    
+Demonstrates:
+    * Vanilla JavaScript
+    * AJAX
+    * XMLHttpRequest
+    * Parsing JSON
+    * REST API
+
+Based on this tutorial:
+- Title: JSON and AJAX Tutorial: With Real Examples
+- URL: https://www.youtube.com/watch?v=rJesac0_Ftw
+- Channel: LearnWebCode
+
+Resources:
+- Where to access json endpoint urls:
+-- Fill Text: http://www.filltext.com/
+- JavaScript Templating: handlebars.js
+- Error Handling for AJAX?
+
+-->
+
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Stylesheets -->  
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine|Open+Sans|Jua:400,300,700">
+
+    <title>JSON and AJAX</title>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>JSON and AJAX</h1>
+        <button id="btn">Fetch Info for 3 New Animals</button>
+    </header>
+    
+    <div id="animal-info"></div>
+    
+    
+<!-- TESTING -->
+
+<hr style="clear: both; margin: 2em;">
+
+        <section class='animal_profile'>
+            <h3>data[i].name</h3>
+            <table id='tbl_dataname'>
+                <tr>
+                    <td><h4>Species:</h4></td>
+                    <td>data[i].species</td>               
+                </tr>
+                <tr>
+                    <td colspan="2"><h4>Foods:</h4></td>
+                </tr>
+                <tr>
+                    <td><h5>Likes</h5></td>
+                    <td><h5>Dislikes</h5></td>
+                </tr>
+                <tr>
+                    <td>likesString</td>
+                    <td>dislikesString</td>
+                </tr>
+            </table>
+        </section>
+    
+    <!-- JavaScripts -->
+
+    <!-- NOTE: Scripts go at bottom before the closing body tag, listed in order of dependency. jquery.js is always first. -->
+
+    <script src="https:/ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
