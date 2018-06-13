@@ -9,7 +9,7 @@
 | Programmer       | Eric Hepperle                               |
 
 ## Purpose:
-Demonstrates grabbing and displaying data from JSON endpoints using AJAX and vanilla JavaScript ES6.
+Demonstrates grabbing and displaying data from JSON endpoints using AJAX and vanilla JavaScript.
     
 ## Usage:
 1. Load the HTML page in a browser.
