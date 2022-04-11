@@ -1,11 +1,11 @@
 | INFO PROPERTY    | VALUE                                       |
-|------------------|---------------------------------------------|
+| ---------------- | ------------------------------------------- |
 | Program Name     | Demo: Ajax Information Gallery (Vanilla JS) |
 | Public File Name | index.htm                                   |
 | Local File Name  | ehCode_2018.06.13_demo_AjaxJson             |
 | Date Created     | 06/13/18                                    |
 | Date Modified    | --                                          |
-| Version          | 1.0                                         |
+| Version          | 1.01                                        |
 | Programmer       | Eric Hepperle                               |
 
 ![Demo: Ajax Animal Information Gallery (Vanilla JS)](images/ehw_screenshot_01.jpg)
