@@ -8,6 +8,8 @@
 | Version          | 1.0                                         |
 | Programmer       | Eric Hepperle                               |
 
+![Demo: Ajax Animal Information Gallery (Vanilla JS)](images/ehw_screenshot_01.jpg)
+
 ## Purpose:
 Demonstrates grabbing and displaying data from JSON endpoints using AJAX and vanilla JavaScript.
     
