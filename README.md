@@ -38,6 +38,9 @@ Demonstrates grabbing and displaying data from JSON endpoints using AJAX and van
 - URL: https://www.youtube.com/watch?v=rJesac0_Ftw
 - Channel: LearnWebCode
 
+## TAGS:
+REST, API, AJAX, JSON, JavaScript, ES6, Tutorial, Tutwrk
+
 ## Resources:
 - Where to access json endpoint urls:
     * Fill Text: http://www.filltext.com/
